@@ -1,0 +1,11 @@
+mkdir FMLHomeworkFolder
+cp ./AysegulBuminHomework*.ipynb ./FMLHomeworkFolder
+cd FMLHomeworkFolder
+git init
+git config --global user.email "namelastname@..."
+git remote add origin https://github.com/*.git
+git status
+git add AysegulBuminHomework*
+git commit -m "...commit message..."
+git push -u origin master
+#You can do branch check with >git branch
